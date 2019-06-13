@@ -6,7 +6,4 @@ for i in range(1, 100):
     s = str(i)
     count = s.count('3') + s.count('6') + s.count('9')
     if count != 0:
-        print(i, end='')
-        for j in range(0, count):
-            print(' 짝', end='')
-        print()
+        print(i, '짝' * count)
