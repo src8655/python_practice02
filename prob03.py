@@ -10,4 +10,4 @@ s_set = set(s.split(' '))
 s_list = sorted(list(s_set))
 
 for strs in s_list:
-    print(strs,':',s.count(strs))
+    print(strs, ':', s.count(strs))
