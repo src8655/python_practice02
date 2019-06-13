@@ -13,7 +13,7 @@ while True:
     answer = -1
     a_mins, a_maxs = mins, maxs
     while number != answer:
-        print(a_mins, '-' ,a_maxs)
+        print(a_mins, '-', a_maxs)
         answer = input(str(cnt)+'>>')
 
         if answer.isdigit() is False:
