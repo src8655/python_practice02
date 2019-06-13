@@ -10,9 +10,9 @@ s = '''
     </body>
 </html>'''
 
-while s.find('<') != -1:    # 태그 개수만큼 반복
-    start = s.find('<')     # 태그 시작 인덱스
-    end = s.find('>')       # 태그 끝 인덱스
-    s = s.replace(s[start:end + 1], '')  # 태그 시작부터 끝부분 지우기
+while s.find('<') != -1:
+    start = s.find('<')
+    end = s.find('>')
+    s = s.replace(s[start:end + 1], '')
 
 print(s)
